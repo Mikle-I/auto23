@@ -1,0 +1,739 @@
+/* стили шапки */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@font-face {
+  font-family: "Nobel WGL";
+  src: local("Nobel WGL Book"), local("Nobel-WGL-Book"),
+    url("NobelWGL-Book.woff2") format("woff2"),
+    url("NobelWGL-Book.woff") format("woff"),
+    url("NobelWGL-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.headerBanner {
+  background: url(../src/fon.jpg), #ffffff;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.header {
+  display: flex;
+  background: rgba(0, 0, 0, 0.256);
+  min-height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+.header__logo {
+  color: #ffffff;
+  font-family: "Italiana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+}
+.header__nav {
+  display: flex;
+  width: 449px;
+  justify-content: space-between;
+}
+.header__nav--text {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+.header__button {
+  width: 211px;
+  height: 50px;
+  left: 1389px;
+  top: 25px;
+  border: none;
+  color: #ffffff;
+  background: #ec2830;
+  border-radius: 25px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+/* стили баннера */
+.banner {
+  margin-left: 180px;
+  margin-top: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 956px;
+
+  color: #ffffff;
+}
+.banner__text--h1 {
+  font-family: Gotham Pro;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner__text--min {
+  font-family: Gotham Pro;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 127px;
+}
+.banner__input--numb {
+  text-align: center;
+  width: 412px;
+  height: 50px;
+  color: black;
+  background: #ffffff;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 19px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.banner__button {
+  width: 412px;
+  height: 50px;
+  background: #ec2830;
+  border-radius: 25px;
+  color: #ffffff;
+  border: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+}
+/* стили карточек */
+.carts__h {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  margin-top: -120px;
+  margin-left: -23px;
+  position: absolute;
+  color: #000000;
+}
+.carts {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+  padding-top: 177px;
+}
+.cart {
+  box-sizing: border-box;
+  width: 303px;
+  height: 491px;
+  background: #fdfdfd;
+  border: 2px solid #f4f4f4;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 23px;
+  margin-left: 23px;
+  margin-top: 10px;
+}
+.cart__h {
+  font-family: "Montserrat";
+
+  font-weight: 1000;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 24px;
+  margin-top: 35px;
+}
+.cart__img--avto {
+  margin-top: 34px;
+}
+.cart__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 11.9px;
+}
+.cart__button--offer {
+  width: 250px;
+  height: 40px;
+  background: #ec2830;
+  border-radius: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ec282e00;
+  margin-top: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.cart__button--white {
+  width: 249.97px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+/* стили формы остались вопросы? */
+.qustion {
+  margin: 125px auto;
+  width: 1298px;
+  height: 497.78px;
+  max-width: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(128, 128, 128, 0) 0%,
+    rgba(128, 128, 128, 0.2) 100%
+  );
+  border-radius: 50px 50px 0px 0px;
+}
+.qustion__h {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 40px;
+  width: 100%;
+  padding-top: 51px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  margin-bottom: 17px;
+}
+.qustion__text {
+  width: 100%;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  justify-content: center;
+}
+.qustion__input {
+  width: 453px;
+  height: 50px;
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 70px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 33px;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+.qustion__input::placeholder {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+}
+.qustion__button {
+  width: 234px;
+  height: 50px;
+  background: #ec2830;
+  border-radius: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  border: none;
+  text-align: center;
+
+  color: #ffffff;
+}
+.qustion__flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 66px;
+  margin-bottom: 66px;
+}
+.qustion__text--little {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* or 120% */
+  width: 1135px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  color: #777777;
+
+  padding-bottom: 49px;
+}
+/* стили подвала */
+.footer__text {
+  width: 100%;
+  height: 119.05px;
+
+  font-family: "Nobel WGL";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 91.97%;
+  /* or 18px */
+
+  text-align: center;
+  margin-top: 43px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  color: #000000;
+}
+.footer__text--margin {
+  margin-bottom: 17px;
+}
+.footer__text--marginTop {
+  margin-top: 10px;
+}
+
+/* доп стили кнопок анимации ховеры */
+
+.button__red,
+.button__white,
+.butRed {
+  transition: 1s;
+}
+
+.button__red:hover {
+  transition: 1s;
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #ec2830;
+  border-radius: 20px;
+  color: #ec2830;
+}
+.butRed:hover {
+  transition: 1s;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #ec2830;
+  border-radius: 20px;
+  color: #ec2830;
+}
+.button__white:hover {
+  cursor: pointer;
+  width: 249.97px;
+  height: 40px;
+  background: #ec2830;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+}
+
+/* стили тени окна */
+.modal--ten {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 3280px;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  top: 0;
+  opacity: 0;
+  animation: opa 1.7s forwards;
+  /* тест */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+@keyframes opa {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.formStandart {
+  position: fixed;
+  width: 567px;
+  height: 554px;
+  top: 20px;
+
+  z-index: 2;
+  margin-left: auto;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formStandart__h3 {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 52px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+.formStandart__p {
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0px;
+  margin-bottom: 48px;
+}
+.formStandart__input {
+  box-sizing: border-box;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 70px;
+  height: 50px;
+  width: 453px;
+  padding-left: 33px;
+  color: #000000;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+.formStandart__input--name {
+  margin-bottom: 33px;
+}
+.formStandart__button {
+  width: 453px;
+  height: 50px;
+  color: #ffffff;
+  background: #ec2830;
+  border-radius: 25px;
+  border: none;
+  margin-top: 71px;
+  margin-bottom: 36px;
+  transition: 1s;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.formStandart__button:hover {
+  box-sizing: border-box;
+  transition: 1s;
+  color: #ec2830;
+  background: #ffffff;
+  border: 1px solid #ec2830;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.formStandart__littleText {
+  width: 453px;
+  height: 28px;
+  font-family: "Gotham Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+.form__a {
+  color: #000000;
+}
+.formStandart__exit {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 21px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: 0.2s;
+}
+.formStandart__exit:hover {
+  background-color: #7777779b;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.boxSendOK {
+  position: fixed;
+  width: 934px;
+  height: 361px;
+  left: auto;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background: #ffffff;
+  border-radius: 20px;
+  z-index: 2;
+}
+.boxSendOK__h {
+  font-family: Gotham Pro;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 100px;
+}
+.boxSendOK__text {
+  font-family: Gotham Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.flex__row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  justify-content: center;
+}
+.boxSendOK__button {
+  width: 412px;
+  height: 50px;
+  background: #ec2830;
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+}
+.boxSendOK__button:hover {
+  box-sizing: border-box;
+  transition: 1s;
+  color: #ec2830;
+  background: #ffffff;
+  border: 1px solid #ec2830;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.boxSendFail {
+  position: fixed;
+  width: 934px;
+  height: 361px;
+  left: auto;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background: #ffffff;
+  border-radius: 20px;
+  z-index: 2;
+}
+.boxSendFail__h {
+  font-family: Gotham Pro;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 100px;
+}
+.boxSendFail__text {
+  font-family: Gotham Pro;
+  font-size: 20px;
+  font-weight: 540;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.boxSendFail__button {
+  width: 412px;
+  height: 50px;
+  background: #ec2830;
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+}
+.boxSendFail__button:hover {
+  box-sizing: border-box;
+  transition: 1s;
+  color: #ec2830;
+  background: #ffffff;
+  border: 1px solid #ec2830;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.overlay {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.button--green {
+  color: #fdfdfd;
+  background: #0fb551;
+  border-radius: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  width: 412px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  transition: 0s;
+}
+.button--green2 {
+  color: #fdfdfd;
+  background: #0fb551;
+  border-radius: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  width: 234px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  transition: 0s;
+}
+.noValida {
+  color: rgba(241, 28, 28, 0.829);
+  border: 4px solid rgb(255, 0, 0);
+}
+.noDvig {
+  transition: 0s;
+}
+.noVisible {
+  display: none;
+}

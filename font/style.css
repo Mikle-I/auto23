@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nobel WGL';
+    src: local('Nobel WGL Book'), local('Nobel-WGL-Book'),
+        url('NobelWGL-Book.woff2') format('woff2'),
+        url('NobelWGL-Book.woff') format('woff'),
+        url('NobelWGL-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
